@@ -1,6 +1,7 @@
 # BTC/KRW Research Toolkit
 
-Upbit BTC/KRW hourly candles for repeatable indicator research and long-only backtests. It is a research tool, not live-trading software or investment advice.
+Upbit BTC/KRW hourly candles for repeatable indicator research and long-only backtests. 
+I am keep working on it.
 
 ```powershell
 .\venv\Scripts\python.exe main.py backtest --output-dir output
@@ -9,4 +10,8 @@ Upbit BTC/KRW hourly candles for repeatable indicator research and long-only bac
 .\venv\Scripts\python.exe main.py download --count 10000
 ```
 
-The strategy creates a signal after a candle closes and executes it at the following candle's open. Fees are charged on both sides. `optimize` selects its RSI threshold only on the preceding training window and reports the later test window.
+Creates a signal after a candle closes and executes it at the following candle. 
+Fees are charged. 
+`optimize` selects its RSI threshold only on the preceding training window and reports the later test window.
+
+LETS EARN MONEY GOOOOO
